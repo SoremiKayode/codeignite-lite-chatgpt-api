@@ -6,4 +6,4 @@ ollama pull qwen2.5:3b-instruct-q4_K_M
 
 # 3) Start the FastAPI app
 pip install -r requirements.txt
-uvicorn app:app --reload --host 0.0.0.0 --port 8000
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
